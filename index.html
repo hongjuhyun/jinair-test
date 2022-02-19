@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>JinAir</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/rotating-slider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="mo-menu">
+            <div id="header-mo">
+                <ul class="language">
+                    <li><img src="images/mobile/globe.png" alt="지구본"></li>
+                    <li class="dropdown"><a class="select">대한민국</a>
+                        <ul class="option-list">
+                            <li><a href="#">대한민국 </a></li>
+                            <li><a href="#">미국</a></li>
+                            <li><a href="#">유럽</a></li>
+                            <li><a href="#">러시아</a></li>
+                            <li><a href="#">홍콩</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href="#">한국어</a></li>
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="icon">
+                    <li><a href="#"><img src="images/mobile/settings.png" alt="설정"></a></li>
+                    <li><a href="#"><img src="images/mobile/notification.png" alt="알림"></a></li>
+                    <li><a href="#" id="close"><img src="images/mobile/x.png" alt="닫기"></a></li>
+                </ul>
+            </div>
+            <div id="login-mo">
+                <ul>
+                    <li><img src="images/mobile/user.png" alt="로그인"></li>
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">></a></li>
+                </ul>
+                <p><a href="#">회원가입</a></p>
+            </div>
+            <div id="quick-mo">
+                <ul>
+                    <li><a href="#"><img src="images/mobile/quick01.png" alt="나의예약"></a>
+                        <p><a href="#">나의 예약</a></p>
+                    </li>
+                    <li><a href="#"><img src="images/mobile/quick02.png" alt="온라인체크인"></a>
+                        <p><a href="#">온라인 체크인</a></p>
+                    </li>
+                    <li><a href="#"><img src="images/mobile/quick03.png" alt="항공권예매"></a>
+                        <p><a href="#">항공권예매</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div id="rev-mo">
+                <ul>
+                    <li><img src="images/mobile/airplane04.png" alt="비행기"></li>
+                    <li><a href="#">예약내역</a></li>
+                    <li><a href="#">></a></li>
+                </ul>
+                <p><a href="#">더보기</a></p>
+            </div>
+            <div id="ticket-mo">
+                <ul>
+                    <li class="ticket-mo-img"><a href="#"><img src="images/mobile/ticket01.png" alt="티켓1"></a></li>
+                    <li class="ticket-mo-img"><a href="#"><img src="images/mobile/ticket02.png" alt="티켓2"></a></li>
+                    <li><a href="#" class="circle"><em>none</em></a></li>
+                    <li><a href="#" class="circle"><em>none</em></a></li>
+                    <li><a href="#" class="circle"><em>none</em></a></li>
+                </ul>
+            </div>
+            <nav id="gnb-mo">
+                <ul class="gnb-mo">
+                    <li class="sub-mo"><a href="#">예약</a>
+                        <ul>
+                            <li><a href="#">항공권 예약</a></li>
+                            <li><a href="#">예약조회</a></li>
+                            <li><a href="#">운항정보</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-mo"><a href="#">여행준비</a>
+                        <ul>
+                            <li><a href="#">체크인 안내</a></li>
+                            <li><a href="#">사전 좌석 지정</a></li>
+                            <li><a href="#">번들서비스</a></li>
+                            <li><a href="#">수화물</a></li>
+                            <li><a href="#">도움이 필요하신 고객</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-mo"><a href="#">여행</a>
+                        <ul>
+                            <li><a href="#">공항 카운터 안내</a></li>
+                            <li><a href="#">입국신고서 작성 안내</a></li>
+                            <li><a href="#">기내 서비스</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-mo"><a href="#">제휴</a>
+                        <ul>
+                            <li><a href="#">액티비티</a></li>
+                            <li><a href="#">호텔</a></li>
+                            <li><a href="#">렌터카</a></li>
+                            <li><a href="#">여행 안심 서비스</a></li>
+                            <li><a href="#">보딩패스 할인</a></li>
+                            <li><a href="#">카드 및 환전 혜택</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-mo"><a href="#">공지사항/이벤트</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">현재 이벤트</a></li>
+                            <li><a href="#">지난 이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-mo"><a href="#">멤버쉽</a>
+                        <ul>
+                            <li><a href="#">나비포인트</a></li>
+                            <li><a href="#">지니쿠폰</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div id="sns-mo">
+                <ul>
+                    <li><a href="#"><img src="images/mobile/sns01.png" alt="유튜브"></a></li>
+                    <li><a href="#"><img src="images/mobile/sns02.png" alt="페이스북"></a></li>
+                    <li><a href="#"><img src="images/mobile/sns03.png" alt="트위터"></a></li>
+                    <li><a href="#"><img src="images/mobile/sns04.png" alt="인스타그램"></a></li>
+                    <li><a href="#"><img src="images/mobile/sns05.png" alt="블로그"></a></li>
+                </ul>
+            </div>
+            <div id="call-mo">
+                <ul class="call-mo-in">
+                    <li><img src="images/mobile/call.png" alt="전화"></li>
+                    <ul class="service_number">
+                        <li><a href="#">고객서비스센터<span>1600-6200,02-6099-1200</span></a></li>
+                        <li><a href="#">업무시간 오전 6:00 ~ 오후 8:00</a></li>
+                    </ul>
+
+                </ul>
+            </div>
+        </div>
+        <div id="top_nav">
+            <div id="top_nav_in">
+                <ul class="language-pc">
+                    <li><img src="images/icon/globe.png" alt="지구본"></li>
+                    <li class="dropdown"><a class="select">대한민국</a>
+                        <ul class="option-list">
+                            <li><a href="#">대한민국 </a></li>
+                            <li><a href="#">미국</a></li>
+                            <li><a href="#">유럽</a></li>
+                            <li><a href="#">러시아</a></li>
+                            <li><a href="#">홍콩</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li><a href="#">한국어</a></li>
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="user">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li class="search-box">
+                        <div class="field-input">
+                            <input type="text" placeholder=" ">
+                            <img src="images/icon/search02.png" alt="검색">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <header>
+        <div class="header_in">
+            <h1><a href="index.html"><img src="images/logo.png" alt="메인로고"></a></h1>
+            <nav id="gnb-pc"></nav>
+            <span class="menu_toggle_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <p><a href="#"><img src="images/icon/search.png" alt="검색"></a></p>
+        </div>
+        <div class="header_in_pc">
+            <h1><a href="index.html"><img src="images/logo03.png" alt="메인로고pc"></a></h1>
+            <nav id="gnb-pc">
+                <ul class="gnb-pc">
+                    <li class="sub-pc"><a href="#">예약</a>
+                        <div>
+                            <ul>
+                                <li><a href="#">항공권 예약</a>
+                                    <ul>
+                                        <li><a href="#">항공권 예약</a></li>
+                                        <li><a href="#">맞춤 항공권</a></li>
+                                        <li><a href="#">프로모션</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">예약조회</a>
+                                    <ul>
+                                        <li><a href="#">예약내역</a></li>
+                                        <li><a href="#">지난예약</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">운항정보</a>
+                                    <ul>
+                                        <li><a href="#">스케쥴 조회</a></li>
+                                        <li><a href="#">출도착 안내</a></li>
+                                        <li><a href="#">취항 노선 안내</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="sub-pc"><a href="#">여행준비</a>
+                        <div>
+                            <ul class="sub-pc-in">
+                                <li><a href="#">체크인 안내</a>
+                                    <ul>
+                                        <li><a href="#">윕/모바일 체크인</a></li>
+                                        <li><a href="#">자동 체크인</a></li>
+                                        <li><a href="#">셀프백드랍</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">사전 좌석 지정</a></li>
+                                <li><a href="#">번들서비스</a>
+                                    <ul>
+                                        <li><a href="#">번들서비스 안내</a></li>
+                                        <li><a href="#">라운지 이용권 안내</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">수화물</a>
+                                    <ul>
+                                        <li><a href="#">수화물 안내</a></li>
+                                        <li><a href="#">운송제한품목</a></li>
+                                        <li><a href="#">수화물 배상 안내</a></li>
+                                        <li><a href="#">기내 유실물 찾기</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">도움이 필요하신 고객</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="sub-pc"><a href="#">여행</a>
+                        <div>
+                            <ul class="sub-pc-in">
+                                <li><a href="#">공항 카운터 안내</a>
+                                    <ul>
+                                        <li><a href="#">국내선</a></li>
+                                        <li><a href="#">국제선</a></li>
+                                        <li><a href="#">도심공항</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">입국신고서 작성 안내</a></li>
+                                <li><a href="#">기내 서비스</a>
+                                    <ul>
+                                        <li><a href="#">기내여행가이드</a></li>
+                                        <li><a href="#">기내유상판매</a></li>
+                                        <li><a href="#">기내식</a></li>
+                                        <li><a href="#">기내엔터테인먼트</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="sub-pc"><a href="#">제휴</a>
+                        <div>
+                            <ul class="sub-pc-in">
+                                <li><a href="#">액티비티</a></li>
+                                <li><a href="#">호텔</a></li>
+                                <li><a href="#">렌터카</a></li>
+                                <li><a href="#">여행 안심 서비스</a></li>
+                                <li><a href="#">보딩패스 할인</a></li>
+                                <li><a href="#">카드 및 환전 혜택</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="sub-pc"><a href="#">공지사항/이벤트</a>
+                        <div>
+                            <ul class="sub-pc-in">
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">현재 이벤트</a></li>
+                                <li><a href="#">지난 이벤트</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="sub-pc"><a href="#">멤버쉽</a>
+                        <div>
+                            <ul class="sub-pc-in">
+                                <li><a href="#">나비포인트</a></li>
+                                <li><a href="#">지니쿠폰</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="header-layer"></div>
+    <section id="notice">
+       <div class="notice_in">
+        <ul class="notice_title">
+            <li><a href="#"><img src="images/icon/speaker.png" alt="확성기"></a></li>
+            <li><a href="#">공지사항</a></li>
+        </ul>
+        <ul class="notice_slider">
+            <li><a href="#">진에어 국제선 비정상운항 안내 &#40;11/16 추가&#41;</a></li>
+            <li><a href="#">코로나19 관련 국가별 출입국 제한사항 안내</a></li>
+            <li><a href="#">국내선 유류할증료 안내 &#40;2020년 12월&#41;</a></li>
+            <li><a href="#">국내선 발권서비스 수수료 금액 변경 안내</a></li>
+        </ul>
+        <p class="notice_btn"><a href="#"><img src="images/icon/down_arrow01.png" alt="하단화살표"></a></p>
+        </div>
+    </section>
+    <section id="slider">
+        <div class="slick_slider">
+            <div class="slick_slider_text01">
+                <a href="#">진에어와 함께 만드는<br><span>안전한 항공 여행 캠페인</span></a>
+                <p id="mo-hidden">안전한 항공 여행 캠페인 참여하면,<br>국내선 항공권 및 다양한 경품이 팡팡</p>
+                <p id="mo-hidden" class="text_bg"></p>
+            </div>
+            <div class="slick_slider_text02">
+                <a href="#"><img src="images/partner05.png" alt=""><span>초.간.단 <em>국내 여행 보험</em></span><br>한판에, 간편하게! 국내 여행도 걱정은 제로</a>
+            </div>
+            <div class="slick_slider_text03">
+                <a href="#"><span>제주-시안 노선,<em> 주 2회 운항</em></span><br>진에어와 함께 시안으로 떠나자!</a>
+            </div>
+            <div class="slick_slider_text04">
+                <p id="mo-hidden">1년에 단 한 번!</p>
+                <a href="#">진에어와 함께하는 가을 여행<br><span>Hello, Autumn!</span></a>
+                <p id="mo-hidden">가을 특별 운임에 10%할인이 더해지는 마법!<br>지금 시크릿 코드를 확인하고 가을 여행 추가 할인을 받으세요.</p>
+            </div>
+        </div>
+        <h2 class="slider_airplane"><img src="images/airplane.png" alt="비행기"></h2>
+        <form name="booking" id="booking">
+            <div class="form_layer">
+                <ul>
+                    <li><img src="images/pattern.png" alt=""></li>
+                    <li><img src="images/pattern02.png" alt=""></li>
+                </ul>
+            </div>
+            <div id="top_btn">
+                <ul class="top_btn_tap">
+                    <li class="active"><a href="#">왕복</a></li>
+                    <li><a href="#">편도</a></li>
+                    <li><a href="#">다구간</a></li>
+                </ul>
+                <ul class="top_btn_check">
+                    <li class="check"><a href="#"><em>check</em></a></li>
+                    <li><a href="#">보너스 항공권 예매</a></li>
+                </ul>
+            </div>
+            <div id="spot">
+                <div class="dep">
+                    <label for="text" id="departure_spot" name="departure_spot"></label>
+                    <input type="text" name="departure_spot" placeholder="탑승지">
+                    <p><a href="#"><img src="images/icon/qps.png" alt="gpsicon"></a></p>
+                </div>
+                <div class="arr">
+                    <label for="text" id="arrival_spot" name="arrival_spot"></label>
+                    <input type="text" name="arrival_spot" placeholder="도착지">
+                    <p><a href="#"><img src="images/icon/qps.png" alt="gpsicon"></a></p>
+                </div>
+            </div>
+            <div id="date">
+                <div class="sta">
+                    <label for="text" id="start_date" name="start_date"></label>
+                    <input type="text" id="startdate" name="start_date" placeholder="출발일">
+                    <p><a href="#"><img src="images/icon/calendar.png" alt="calendar"></a></p>
+                </div>
+                <div class="end">
+                    <label for="text" id="end_date" name="end_date"></label>
+                    <input type="text" id="enddate" name="end_date" placeholder="도착일">
+                    <p><a href="#"><img src="images/icon/calendar.png" alt="calendar"></a></p>
+                </div>
+            </div>
+            <div id="number">
+                <ul class="number_list">
+                    <li>
+                        <h2>성인</h2>
+                        <div class="input-number-wrapper">
+                            <span class="decrease">-</span>
+                            <input type="text" value="0" min="0" max="10" />
+                            <span class="increase">+</span>
+                        </div>
+                    </li>
+                    <li>
+                        <h2>소아</h2>
+                        <div class="input-number-wrapper">
+                            <span class="decrease">-</span>
+                            <input type="text" value="0" min="0" max="10" />
+                            <span class="increase">+</span>
+                        </div>
+                    </li>
+                    <li>
+                        <h2>유아</h2>
+                        <div class="input-number-wrapper">
+                            <span class="decrease">-</span>
+                            <input type="text" value="0" min="0" max="10" />
+                            <span class="increase">+</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+        <p id="last_btn"><a href="#">예매하기</a></p>
+    </section>
+    <section id="service">
+        <h2>부가서비스</h2>
+        <div class="rotating-slider">
+            <ul class="slides">
+                <li>
+                    <div class="rotating_slider_inner">
+                        <p>사전 좌석 지정</p>
+                        <a href="#"><img src="images/icon/service01.svg" alt="사전좌석"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="rotating_slider_inner">
+                        <p>사전 수화물 구매</p>
+                        <a href="#"><img src="images/icon/service02.svg" alt="사전수화물"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="rotating_slider_inner">
+                        <p>기내식</p>
+                        <a href="#"><img src="images/icon/service03.svg" alt="기내식"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="rotating_slider_inner">
+                        <p>번들서비스</p>
+                        <a href="#"><img src="images/icon/service04.svg" alt="사전 좌석"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="rotating_slider_inner">
+                        <p>기내 면세품</p>
+                        <a href="#"><img src="images/icon/service05.svg" alt="사전 좌석"></a>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="rotating_slider_inner">
+                        <p>여행안심서비스</p>
+                        <a href="#"><img src="images/icon/service06.svg" alt="사전 좌석"></a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="service_slider">
+            <div class="service_slider_inner">
+                <p>사전 좌석 지정</p>
+                <a href="#"><img src="images/icon/service01.svg" alt="사전좌석"></a>
+
+            </div>
+            <div class="service_slider_inner">
+                <p>사전 수화물 구매</p>
+                <a href="#"><img src="images/icon/service02.svg" alt="사전수화물"></a>
+
+            </div>
+            <div class="service_slider_inner">
+                <p>기내식</p>
+                <a href="#"><img src="images/icon/service03.svg" alt="기내식"></a>
+
+            </div>
+            <div class="service_slider_inner">
+                <p>번들서비스</p>
+                <a href="#"><img src="images/icon/service04.svg" alt="번들서비스"></a>
+
+            </div>
+            <div class="service_slider_inner">
+                <p>기내 면세품</p>
+                <a href="#"><img src="images/icon/service05.svg" alt="면세"></a>
+            </div>
+            <div class="service_slider_inner">
+                <p>여행안심서비스</p>
+                <a href="#"><img src="images/icon/service06.svg" alt="안심서비스"></a>
+            </div>
+        </div>
+        <ul class="service_slider_pc">
+            <li><a href="#"><img src="images/icon/service_pc01.png" alt="사전좌석"></a>
+            <p>사전 좌석 지정</p>
+            </li>
+            <li><a href="#"><img src="images/icon/service_pc02.png" alt="사전수화물"></a><p>사전 수화물 구매</p>
+            </li>
+            <li><a href="#"><img src="images/icon/service_pc03.png" alt="기내식">
+            <p>기내식</p>
+            </a></li>
+            <li><a href="#"><img src="images/icon/service_pc04.png" alt="번들서비스"></a>
+            <p>번들서비스</p>
+            </li>
+            <li><a href="#"><img src="images/icon/service_pc05.png" alt="면세"></a>
+            <p>기내 면세품</p>
+            </li>
+            <li><a href="#"><img src="images/icon/service_pc06.png" alt="안심서비스"></a>
+            <p>여행안심서비스</p>
+            </li>
+        </ul>
+        <div class="service_arrows">
+            <ul>
+                <li class="service_prev"><img src="images/icon/prev_arrow.png" alt="이전화살표"></li>
+                <li class="service_next"><img src="images/icon/next_arrow.png" alt="다음화살표"></li>
+            </ul>
+        </div>
+    </section>
+    <section id="price">
+        <h2>특가 항공권<span>진에어와 함께 가볍게 떠나자!</span><img src="images/price_icon.png" alt="#"></h2>
+        <div class="price_slider">
+            <div class="price_slider_img"><a href="#"><img src="images/price01.png" alt="제주"></a>
+                <ul class="price_slider_text">
+                    <li><a href="#">서울/김포-제주</a></li>
+                    <li><a href="#"><span>\</span> 19,000~</a></li>
+                    <li><a href="#">예매하기</a></li>
+                </ul>
+            </div>
+            <div class="price_slider_img"><a href="#"><img src="images/price02.png" alt="호이안"></a>
+                <ul class="price_slider_text">
+                    <li><a href="#">서울/인천-호이안</a></li>
+                    <li><a href="#"><span>\</span> 79,000~</a></li>
+                    <li><a href="#">예매하기</a></li>
+                </ul>
+            </div>
+            <div class="price_slider_img"><a href="#"><img src="images/price03.png" alt="크로아티아"></a>
+                <ul class="price_slider_text">
+                    <li><a href="#">서울/인천-크로아티아</a></li>
+                    <li><a href="#"><span>\</span> 19,000~</a></li>
+                    <li><a href="#">예매하기</a></li>
+                </ul>
+            </div>
+            <div class="price_slider_img"><a href="#"><img src="images/price04.png" alt="제주"></a>
+                <ul class="price_slider_text">
+                    <li><a href="#">서울/김포-제주</a></li>
+                    <li><a href="#"><span>\</span> 19,000~</a></li>
+                    <li><a href="#">예매하기</a></li>
+                </ul>
+            </div>
+            <div class="price_slider_img"><a href="#"><img src="images/price05.png" alt="스리랑카"></a>
+                <ul class="price_slider_text">
+                    <li><a href="#">서울/인천-스리랑카</a></li>
+                    <li><a href="#"><span>\</span> 19,000~</a></li>
+                    <li><a href="#">예매하기</a></li>
+                </ul>
+            </div>
+            <div class="price_slider_img"><a href="#"><img src="images/price06.png" alt="몰디브"></a>
+                <ul class="price_slider_text">
+                    <li><a href="#">서울/인천-몰디브</a></li>
+                    <li><a href="#"><span>\</span> 19,000~</a></li>
+                    <li><a href="#">예매하기</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="price_slider_pc">
+            <div class="price_card">
+                   <a><img src="images/price_pc01.png" alt="제주"></a>
+                <div class="price_bg"></div>
+                <div class="price_text">
+                    <p>서울/김포-제주</p>
+                    <p><span>\</span> 159,000</p>
+                    <p><a href="#">예매하기</a></p>
+                </div>
+            </div>
+            <div class="price_card">
+                   <a> <img src="images/price_pc02.png" alt="호이안"></a>
+                <div class="price_bg"></div>
+                <div class="price_text">
+                    <p>서울/인천-호이안</p>
+                    <p><span>\</span> 159,000</p>
+                    <p><a href="#">예매하기</a></p>
+                </div>
+            </div>
+            <div class="price_card">
+                   <a> <img src="images/price_pc03.png" alt="크로아티아"></a>
+                <div class="price_bg"></div>
+                <div class="price_text">
+                    <p>서울/인천-크로아티아</p>
+                    <p><span>\</span> 159,000</p>
+                    <p><a href="#">예매하기</a></p>
+                </div>
+            </div>
+            <div class="price_card">
+                <a>
+                    <img src="images/price_pc04.png" alt="제주2"></a>
+                <div class="price_bg"></div>
+                <div class="price_text">
+                    <p>서울/김포-제주</p>
+                    <p><span>\</span> 159,000</p>
+                    <p><a href="#">예매하기</a></p>
+                </div>
+            </div>
+            <div class="price_card">
+                <a>
+                    <img src="images/price_pc05.png" alt="스리랑카"></a>
+                <div class="price_bg"></div>
+                <div class="price_text">
+                    <p>서울/인천-스리랑카</p>
+                    <p><span>\</span> 159,000</p>
+                    <p><a href="#">예매하기</a></p>
+                </div>
+            </div>
+            <div class="price_card">
+                <a>
+                    <img src="images/price_pc06.png" alt="몰디브"></a>
+                <div class="price_bg"></div>
+                <div class="price_text">
+                    <p>서울/인천-몰디브</p>
+                    <p><span>\</span> 159,000</p>
+                    <p><a href="#">예매하기</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="price_slider_bar">
+            <div id="custom-handle" class="ui-slider-handle"><img src="images/icon/airplane02.png" alt="비행기아이콘">
+            </div>
+        </div>
+        <div class="price_arrows">
+            <ul>
+                <li class="price_prev">
+                    <img src="images/icon/prev_arrow.png" alt="이전화살표">
+                </li>
+                <li class="price_next"><img src="images/icon/next_arrow.png" alt="다음화살표"></li>
+            </ul>
+        </div>
+    </section>
+    <section id="event">
+        <h2 class="hidden">이벤트공지사항</h2>
+        <div class="event_slider_pc">
+            <div><a href="#"><img src="images/event_pc_01.png" alt="천만위크"></a></div>
+            <div><a href="#"><img src="images/event_pc_02.png" alt="천만의쿠폰"></a></div>
+            <div><a href="#"><img src="images/event_pc_03.png" alt="국내여행보험"></a></div>
+            <div><a href="#"><img src="images/event_pc_04.png" alt="m포인트"></a></div>
+        </div>
+        <div class="event_slider_tab">
+            <div><a href="#"><img src="images/event_tab_01.png" alt="천만위크"></a></div>
+            <div><a href="#"><img src="images/event_tab_02.png" alt="천만의쿠폰"></a></div>
+            <div><a href="#"><img src="images/event_tab_03.png" alt="국내여행보험"></a></div>
+            <div><a href="#"><img src="images/event_tab_04.png" alt="m포인트"></a></div>
+        </div>
+        <div class="event_slider">
+            <div><a href="#"><img src="images/event01.png" alt="앱푸시알림이벤트"></a></div>
+            <div><a href="#"><img src="images/event02.png" alt="다시날아올라"></a></div>
+            <div><a href="#"><img src="images/event03.png" alt="혜택이오진에어"></a></div>
+            <div><a href="#"><img src="images/event04.png" alt="블랙프라이데이"></a></div>
+            <div><a href="#"><img src="images/event05.png" alt="운행정보안내"></a></div>
+        </div>
+    </section>
+    <section id="partner">
+        <h2>제휴서비스</h2>
+        <div class="partner_slider">
+            <div>
+                <ul>
+                    <li><a href="#"><img src="images/partner01.png" alt="클룩"></a></li>
+                    <li><a href="#">최대 60% 할인 혜택으로<br>최저가 보장에 e-티켓으로 쉽고<br>간편하게 예약하세요.</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><img src="images/partner02.png" alt="부킹닷컴"></a></li>
+                    <li><a href="#">예약 수수료 없는 전 세계<br>인기 숙소를 'Booking.com'에서<br>한 눈에 살펴보세요.</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><img src="images/partner03.png" alt="허츠"></a></li>
+                    <li><a href="#">전 세계 No.1 렌터카 브랜드<br>진에어 회원 전용 요금 및 진행중인<br>이벤트를 지금 바로 확인해보세요.</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><img src="images/partner04.png" alt="어시던트카드"></a></li>
+                    <li><a href="#">전 세계 1,000만명의 선택!<br>여행자 보험 + 프리미엄 서비스로<br>안전하고 즐거운 여행하세요.</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#"><img src="images/partner05.png" alt="큐브"></a></li>
+                    <li><a href="#">안전한 여행을 위해<br>에이스 손해 보험의 Chubb<br>해외여행보험이 함께합니다!</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="partner_slider_pc">
+        <div class="partner_card" href="#!">
+            <div class="front">
+                <p><img src="images/partner_pc01.png" alt="클룩"></p>
+            </div>
+            <div class="back">
+                <div>
+                    <p>최대 60% 할인 혜택으로 최저가 보장에 e-티켓으로 쉽고 간편하게 예약하세요.</p>
+                    <button class="button">바로가기</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="partner_card" href="#!">
+            <div class="front">
+                <p><img src="images/partner_pc02.png" alt="부킹닷컴"></p>
+            </div>
+            <div class="back">
+                <div>
+                    <p>예약 수수료 없는 전 세계 인기 숙소를 'Booking.com'에서 한 눈에 살펴보세요.</p>
+                    <button class="button">바로가기</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="partner_card" href="#!">
+            <div class="front">
+               <p> <img src="images/partner_pc03.png" alt="허츠"></p>
+            </div>
+            <div class="back">
+                <div>
+                    <p>전 세계 No.1 렌터카 브랜드, 진에어 회원 전용 요금 및 진행중인 이벤트를 지금 바로 확인해보세요.</p>
+                    <button class="button">바로가기</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="partner_card" href="#!">
+            <div class="front">
+                <p><img src="images/partner_pc04.png" alt="어시던트카드"></p>
+            </div>
+            <div class="back">
+                <div>
+                    <p>전 세계 1,000만명의 선택! 여행자 보험 + 프리미엄 서비스로 안전하고 즐거운 여행하세요.</p>
+                    <button class="button">바로가기</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="partner_card" href="#!">
+            <div class="front">
+                <p><img src="images/partner_pc05.png" alt="에이스"></p>
+            </div>
+            <div class="back">
+                <div>
+                    <p>안전한 여행을 위해 에이스 손해 보험의 Chubb 해외여행보험이 함께합니다!</p>
+                    <button class="button">바로가기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="partner_arrows">
+            <ul>
+                <li class="partner_prev"></li>
+                <li class="partner_next"><img src="images/icon/down_arrow02.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="partner_arrows2">
+            <ul>
+                <li class="partner_prev2">
+                    <img src="images/icon/prev_arrow02.png" alt="이전화살표">
+                </li>
+                <li class="partner_next2"><img src="images/icon/next_arrow02.png" alt="다음화살표"></li>
+            </ul>
+        </div>
+    </section>
+    <section id="subscribe">
+        <h2>뉴스레터 구독하기</h2>
+        <h3>진에어의 다양한 정보를 가장 먼저 만나보세요.</h3>
+        <form id="email">
+            <input type="email" name="email-input" id="email-input" placeholder="E-Mail">
+            <button type="button" id="email_btn"><img src="images/icon/airplane03.png" alt=""></button>
+        </form>
+    </section>
+    <footer>
+       <div class="footer_in">
+        <h3><a href="#"><img src="images/logo2.png" alt="하단로고"></a></h3>
+        <div class="menu">
+            <ul>
+                <li><a href="#">회사안내</a></li>
+                <li><a href="#">약관 및 안내</a></li>
+                <li><a href="#">고객서비스</a></li>
+            </ul>
+        </div>
+        <address>
+            <p>대표이사 최정호 | 사업자등록번호 121-81-89086 | 통신판매업 신고번호 : 제2008-서울 강서-0408 | 주소 : 서울시 강서구 공항대로 453 | 개인정보보호책임자 : 이광</p>
+        </address>
+        <p class="copy">Copyright &copy; JIN AIR. All Rights Reserved.</p>
+        <p class="isms"><img src="images/isms.png" alt="인증마크"></p>
+        </div>
+    </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.rotating-slider.js"></script>
+    <script src="js/datepicker-ko.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/index.js"></script>
+</body></html>

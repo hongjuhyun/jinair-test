@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+header,#notice,#slider,#price,#event,#partner,footer {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*body {
+	line-height: 1;
+}*/
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+   /* display: block;*/
+    font-family: 'Gothic15';
+}
+  
+img {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+/*폰트*/
+
+@font-face{
+    font-family : Gothic12;
+    src : url(../webfont/Gothic12.eot);
+    src : url(../webfont/Gothic12.woff);
+}
+@font-face{
+    font-family : Gothic15;
+    src : url(../webfont/Gothic15.eot);
+    src : url(../webfont/Gothic15.woff);
+}
+@font-face{
+    font-family : KoreanSWGI1;
+    src : url(../webfont/KoreanSWGI1.eot);
+    src : url(../webfont/KoreanSWGI1.woff);
+}
+@font-face{
+    font-family : KoreanSWGI2;
+    src : url(../webfont/KoreanSWGI2.eot);
+    src : url(../webfont/KoreanSWGI2.woff);
+}
+@font-face{
+    font-family : KoreanYNSJG4;
+    src : url(../webfont/KoreanYNSJG4.eot);
+    src : url(../webfont/KoreanYNSJG4.woff);
+}
+@font-face{
+    font-family : KoreanYNSJG5;
+    src : url(../webfont/KoreanYNSJG5.eot);
+    src : url(../webfont/KoreanYNSJG5.woff);
+}
+
